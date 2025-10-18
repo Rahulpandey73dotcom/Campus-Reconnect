@@ -1,12 +1,9 @@
-/* ====== Global Reset ====== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-
-/* ====== Body Styling ====== */
 body {
   background: linear-gradient(135deg, #6c63ff, #00b4d8);
   min-height: 100vh;
@@ -18,7 +15,6 @@ body {
   padding-bottom: 40px; /* added bottom padding */
 }
 
-/* ====== Brand Name (Top Left Corner) ====== */
 .brand-name {
   position: absolute;
   top: 25px;
@@ -43,7 +39,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* ====== Slogan with Typing Effect ====== */
+
 .slogan {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -62,7 +58,7 @@ body {
   50% { border-color: #dbeafe; }
 }
 
-/* ====== Signup Container ====== */
+
 .Signup-container {
   background: #ffffff;
   padding: 45px 55px;
@@ -80,7 +76,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* ====== Form Fields ====== */
+
 .form-group {
   margin-bottom: 18px;
 }
@@ -107,14 +103,14 @@ body {
   box-shadow: 0 0 6px rgba(108, 99, 255, 0.4);
 }
 
-/* ====== Error Text ====== */
+
 .error {
   color: red;
   font-size: 13px;
   margin-top: 4px;
 }
 
-/* ====== Signup Button ====== */
+
 button[type="submit"] {
   width: 100%;
   padding: 12px;
@@ -162,7 +158,7 @@ button[type="submit"]:hover {
   background-color: #936a6a;
 }
 
-/* ====== Animations ====== */
+
 @keyframes slideUp {
   from {
     transform: translateY(40px);
@@ -184,3 +180,4 @@ button[type="submit"]:hover {
     transform: translateY(0);
   }
 }
+
